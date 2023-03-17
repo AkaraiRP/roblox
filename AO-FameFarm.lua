@@ -169,5 +169,4 @@ coroutine.wrap(function()
     end
 end)()
 
-gotoBounty()
 Toaster("Fame Farm Script", "Created by RedPhantom")

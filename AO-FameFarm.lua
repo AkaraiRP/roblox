@@ -93,9 +93,10 @@ function getBounty()
 	    [3] = "Bounty"
 		}
 		
-		game:GetService("ReplicatedStorage"):WaitForChild("RS"):WaitForChild("Remotes"):WaitForChild("Misc"):WaitForChild("HuntPlayer"):InvokeServer(unpack(args))
 		plr.CFrame = CFrame.new(12803, 440, 2181) --TP to destroy BountyBoard UI just in case it hasn't updated
 		wait(1)
+		game:GetService("ReplicatedStorage"):WaitForChild("RS"):WaitForChild("Remotes"):WaitForChild("Misc"):WaitForChild("HuntPlayer"):InvokeServer(unpack(args))
+		
 		
 		if plrName == nil then
 			return crm

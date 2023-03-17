@@ -1,9 +1,9 @@
 local Key = "Period"
 
-getgenv().destructive = true
+-- getgenv().destructive = true			     For developers, disabled to allow loadstring + editing.
 -- Set to "true" if you want to include players in your farm
 
-getgenv().weapon = "Strong Silent Blades"
+-- getgenv().weapon = "Strong Silent Blades"         For developers, disabled to allow loadstring + editing.
 --[[
 	Set the above to your weapon.
 	Must be case-sensitive including the enchantment.
